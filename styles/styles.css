@@ -1,0 +1,49 @@
+body {
+  background-color: #2C2C2C;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #F7374F;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.carousel.slide{
+  width: 250px;
+  justify-content: center;
+  
+}
+p {
+  color: #F7374F;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+div.container.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+
+}
+div.card {
+  background-color: #88304E;
+  justify-content: center;
+}
+
+div.container.grid-container.forms{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+
+}
+label{
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+form{
+  justify-items: center;
+}
+button{
+  display: block;
+  margin-top: 30px;
+}
